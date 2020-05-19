@@ -21,6 +21,3 @@ Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/sample', function () {
-    return view('sample');
-});
