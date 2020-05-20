@@ -57,23 +57,24 @@
                                                   SLIDER
      ========================================================================================================== -->
 
-<div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
-    <h1>SIMPLE WIDGETS</h1>
-    <small>Drag and Drop</small>
-    <div class="container fh5co-slider-inner">
+    <div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
+        <h1>SIMPLE WIDGETS</h1>
+        <small>Drag and Drop</small>
+        <div class="container fh5co-slider-inner">
 
-        <div class="owl-carousel owl-theme">
+            <div class="owl-carousel owl-theme">
 
-            <div class="item"><img src="img/java.png" alt=""></div>
-            <div class="item"><img src="img/python.png" alt=""></div>
-            <div class="item"><img src="img/javascript.png" alt=""></div>
-            <div class="item"><img src="img/cpp.png" alt=""></div>
+                <div class="item"><img src="img/java.png" alt=""></div>
+                <div class="item"><img src="img/python.png" alt=""></div>
+                <div class="item"><img src="img/javascript.png" alt=""></div>
+                <div class="item"><img src="img/cpp.png" alt=""></div>
 
+
+            </div>
 
         </div>
-
     </div>
-</div>
+
 
 
 <!-- ==========================================================================================================
@@ -89,8 +90,6 @@
             <div class="col-sm-6 in-order-1 wow animated fadeInLeft" data-wow-delay="0.22s">
                 <div class="col-sm-image-container">
                     <img class="img-float-left" src="img/iphone.png" alt="smartphone-1">
-                    <span class="span-new">NEW</span>
-                    <span class="span-free">Free</span>
                 </div>
             </div>
 
@@ -195,9 +194,4 @@
 
 </div> <!-- main page wrapper -->
 
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/main.js"></script>
 @endsection
