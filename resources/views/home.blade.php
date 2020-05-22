@@ -58,8 +58,8 @@
      ========================================================================================================== -->
 
     <div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
-        <h1>SERVICES</h1>
-        <small>Drag and Drop</small>
+        <h1>OUR SERVICES</h1>
+        <small>Exclusively for 21st century</small>
         <div class="container fh5co-slider-inner">
 
             <div class="owl-carousel owl-theme">
@@ -173,7 +173,7 @@
         <div class="container fh5co-bottom-inner">
             <div class="row">
                 <div class="col-sm-6">
-                    <h1>A Quote that we like or our own quote!!!</h1>
+                    <h1>And miles to go before we sleep...</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque suscipit, similique animi saepe, ipsam itaque, tempore minus maxime pariatur error unde fugit tenetur.</p>
                     <a class="wow fadeIn animated" data-wow-delay="0.25s" href="#"><img class="app-store-btn" src="img/app-store-icon.png" alt="App Store Icon"></a>
                     <a class="wow fadeIn animated" data-wow-delay="0.67s" href="#"><img class="google-play-btn" src="img/google-play-icon.png" alt="Google Play Icon"></a>

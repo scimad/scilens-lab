@@ -21,7 +21,7 @@
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    
+
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/app.css' )}}">
@@ -30,7 +30,7 @@
 <body>
     <div id="fh5co-hero-wrapper">
         <nav class="container navbar navbar-expand-lg main-navbar-nav navbar-light">
-            <a class="navbar-brand" href="/">SCILEN()</a>
+            <a class="navbar-brand" href="/">SCILEN() :: 4x4</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
