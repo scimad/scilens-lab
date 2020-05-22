@@ -37227,11 +37227,11 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-__webpack_require__(/*! ./components/jquery.min.js */ "./resources/js/components/jquery.min.js"); // require('./components/main.js');
-// require('./components/owl.carousel.js');
-
+__webpack_require__(/*! ./components/jquery.min.js */ "./resources/js/components/jquery.min.js");
 
 __webpack_require__(/*! ./components/wow.min.js */ "./resources/js/components/wow.min.js");
+
+__webpack_require__(/*! ./components/carousel.js */ "./resources/js/components/carousel.js");
 
 /***/ }),
 
@@ -37277,6 +37277,39 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/components/carousel.js":
+/*!*********************************************!*\
+  !*** ./resources/js/components/carousel.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+$('#myCarousel').carousel({
+  interval: 1000
+});
+$('.carousel .carousel-item').each(function () {
+  var minPerSlide = 4;
+  var next = $(this).next();
+
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+
+  next.children(':first-child').clone().appendTo($(this));
+
+  for (var i = 0; i < minPerSlide; i++) {
+    next = next.next();
+
+    if (!next.length) {
+      next = $(this).siblings(':first');
+    }
+
+    next.children(':first-child').clone().appendTo($(this));
+  }
+});
 
 /***/ }),
 

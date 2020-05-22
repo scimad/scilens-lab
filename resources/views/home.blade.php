@@ -13,7 +13,7 @@
         <p class="animated fadeIn wow" data-wow-delay="0.67s">Here at 4x4, We innovate solutions to your problems, ease out your existing pains and make your idea real.</p>
         <button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s" onclick="$('#fh5co-download').goTo();return false;">I have an idea</button>
         <button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s" onclick="$('#fh5co-features').goTo();return false;">I have a problem</button>
-        <img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s" src="img/phone-image.png" alt="Smartphone">
+        <img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s" src="img/MrWolf.png" alt="Smartphone" style="height:500px; width:350px;">
     </div>
 @endsection
 
@@ -60,36 +60,56 @@
     <div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
         <h1>SERVICES</h1>
         <small>Drag and Drop</small>
-        <div class="container fh5co-slider-inner" style="background:red;">
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img class="d-block w-100" src="img/java.png" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                <img class="d-block w-100" src="img/java.png" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                <img class="d-block w-100" src="img/java.png" alt="Third slide">
+
+            <div class="container text-center">
+                <h1 class="font-weight-light mb-5">We have expertise in:</h1>
+                <div class="row mx-auto my-auto">
+                    <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+                        <div class="carousel-inner w-100" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="col-lg-4 col-md-6">
+                                    <img class="img-fluid" src="img/javascript.png">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-lg-4 col-md-6">
+                                    <img class="img-fluid" src="img/cpp.png">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-lg-4 col-md-6">
+                                    <img class="img-fluid" src="img/java.png">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-lg-4 col-md-6">
+                                    <img class="img-fluid" src="img/python.png">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-lg-4 col-md-6">
+                                    <img class="img-fluid" src="img/javascript.png">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-lg-4 col-md-6">
+                                    <img class="img-fluid" src="img/javascript.png">
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev  w-auto" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" style="background-image:url(img/rtar.png); height:50px; width:50px;" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next  w-auto" href="#myCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" style="background-image:url(img/lftar.png); height:50px; width:50px;" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-            </div>
-
-        </div>
+       
     </div>
 
 
