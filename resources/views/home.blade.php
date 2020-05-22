@@ -10,7 +10,7 @@
 
     <div class="container fh5co-hero-inner">
         <h1 class="animated fadeIn wow" data-wow-delay="0.4s">Innovate, Simplify, Realize</h1>
-        <p class="animated fadeIn wow" data-wow-delay="0.67s">Here at 4x4, We innovate solutions to your problems, ease out your existing pains and make your idea real.</p>
+        <p class="animated fadeIn wow" data-wow-delay="0.67s">Here at 4x4, We innovate solutions to your problems, ease out your existing pains and turn your idea into reality.</p>
         <button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s" onclick="$('#fh5co-download').goTo();return false;">I have an idea</button>
         <button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s" onclick="$('#fh5co-features').goTo();return false;">I have a problem</button>
         <img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s" src="img/phone-image.png" alt="Smartphone">
