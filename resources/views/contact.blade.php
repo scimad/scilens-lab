@@ -1,11 +1,11 @@
 @extends('layout')
 
-
 @section('subheader')
-Components inside the header goes here!!!!!!!!
+
 
 @endsection
-	
+
+
 @section('content')
     <div class="wrapper">
 		<div class="row">
