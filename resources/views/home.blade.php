@@ -9,10 +9,10 @@
 @section('subheader')
 
     <div class="container fh5co-hero-inner">
-        <h1 class="animated fadeIn wow" data-wow-delay="0.4s">Lets start to build our website of <strong>Scilens Lab</strong> with this template as it seems cool!!</h1>
-        <p class="animated fadeIn wow" data-wow-delay="0.67s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptates, aliquid soluta distinctio dolorum tenetur. </p>
-        <button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s" onclick="$('#fh5co-download').goTo();return false;">Download</button>
-        <button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s" onclick="$('#fh5co-features').goTo();return false;">Features</button>
+        <h1 class="animated fadeIn wow" data-wow-delay="0.4s">Innovate, Simplify, Realize</h1>
+        <p class="animated fadeIn wow" data-wow-delay="0.67s">Here at 4x4, We innovate solutions to your problems, ease out your existing pains and make your idea real.</p>
+        <button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s" onclick="$('#fh5co-download').goTo();return false;">I have an idea</button>
+        <button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s" onclick="$('#fh5co-features').goTo();return false;">I have a problem</button>
         <img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s" src="img/phone-image.png" alt="Smartphone">
     </div>
 @endsection
@@ -24,8 +24,8 @@
 
 <div class="fh5co-advantages-outer">
     <div class="container">
-        <h1 class="second-title"><span class="span-perfect">Perfect</span> <span class="span-features">Features</span></h1>
-        <small>Only necessary</small>
+        <h1 class="second-title"><span class="span-perfect">Out</span> <span class="span-features">Tools</span></h1>
+        <small>Let us help you choose what you need</small>
 
         <div class="row fh5co-advantages-grid-columns wow animated fadeIn" data-wow-delay="0.36s">
 
@@ -58,8 +58,8 @@
      ========================================================================================================== -->
 
     <div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
-        <h1>SIMPLE WIDGETS</h1>
-        <small>Drag and Drop</small>
+        <h1>OUR SERVICES</h1>
+        <small>Exclusively for 21st century</small>
         <div class="container fh5co-slider-inner">
 
             <div class="owl-carousel owl-theme">
@@ -94,7 +94,7 @@
             </div>
 
             <div class="col-sm-6 in-order-2 sm-6-content wow animated fadeInRight" data-wow-delay="0.22s">
-                <h1>IOS/Android Phone Support</h1>
+                <h1>Web / Desktop / Mobile</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolor iste beatae ad adipisci, fugiat dignissimos pariatur, dolore nemo suscipit cum nisi earum voluptates nulla! </p>
                 <span class="circle circle-first"><i class="fab fa-instagram"></i></span>
                 <span class="circle circle-middle"><i class="fab fa-facebook"></i></span>
@@ -102,7 +102,7 @@
             </div>
 
             <div class="col-sm-6 in-order-3 sm-6-content wow animated fadeInLeft" data-wow-delay="0.22s">
-                <h1>REAL-TIME DATA</h1>
+                <h1>AI and stuffs</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolor iste beatae ad adipisci, fugiat dignissimos pariatur, dolore nemo suscipit cum nisi earum voluptates nulla! </p>
                 <span class="circle circle-first"><i class="fas fa-star"></i></span>
                 <span class="circle circle-middle"><i class="far fa-star"></i></span>
@@ -119,7 +119,7 @@
                 </div>
             </div>
             <div class="col-sm-6 in-order-6 sm-6-content wow animated fadeInRight" data-wow-delay="0.22s">
-                <h1>POWERFUL BACKEND</h1>
+                <h1>Kits and wares</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolor iste beatae ad adipisci, fugiat dignissimos pariatur, dolore nemo suscipit cum nisi earum voluptates nulla! </p>
                 <span class="circle circle-first">95%</span>
                 <span class="circle circle-middle"><i class="fas fa-forward"></i></span>
@@ -173,7 +173,7 @@
         <div class="container fh5co-bottom-inner">
             <div class="row">
                 <div class="col-sm-6">
-                    <h1>A Quote that we like or our own quote!!!</h1>
+                    <h1>And miles to go before we sleep...</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque suscipit, similique animi saepe, ipsam itaque, tempore minus maxime pariatur error unde fugit tenetur.</p>
                     <a class="wow fadeIn animated" data-wow-delay="0.25s" href="#"><img class="app-store-btn" src="img/app-store-icon.png" alt="App Store Icon"></a>
                     <a class="wow fadeIn animated" data-wow-delay="0.67s" href="#"><img class="google-play-btn" src="img/google-play-icon.png" alt="Google Play Icon"></a>
@@ -182,16 +182,6 @@
         </div>
     </div>
 </div>
-
-
-<!-- ==========================================================================================================
-                                           SECTION 7 - SUB FOOTER
-========================================================================================================== -->
-
-
-
-
-
-</div> <!-- main page wrapper -->
+</div>
 
 @endsection
