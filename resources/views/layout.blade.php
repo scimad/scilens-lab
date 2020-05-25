@@ -68,7 +68,7 @@
 
             <div class="footer-three-grid wow fadeIn animated" data-wow-delay="0.66s">
                 <div class="column-1-3 ">
-                    <a style= "text-decoration: none;" href="#" onclick="$('#fh5co-hero-wrapper').goTo();return false;"><h1>Scilen()</h1></a>
+                    <a style= "text-decoration: none;" href="/"><h1>SCILEN()::4x4</h1></a>
                 </div>
                 <div class="column-2-3">
                     <nav class="footer-nav">
