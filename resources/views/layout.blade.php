@@ -91,7 +91,7 @@
 
             <span class="border-bottom-footer"></span>
 
-            <p class="copyright">&copy; 2020 Website. All rights reserved.</p>
+            <p class="copyright">&copy; 2020 Scilens 4x4 Lab | All rights reserved.</p>
 
         </div>
     </footer>

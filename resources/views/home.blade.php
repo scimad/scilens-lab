@@ -28,19 +28,19 @@
                     <div class="col-sm-4">
                         <img class="grid-image" src="img/icon-1.png" alt="Icon-1">
                         <h1 class="grid-title">Algorithms</h1>
-                        <p class="grid-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cupiditate.</p>
+                        <p class="grid-desc">We have the best possible approach to solve your problems. Let us think for you!</p>
                     </div>
 
                     <div class="col-sm-4">
                         <img class="grid-image" src="img/icon-2.png" alt="Icon-2">
                         <h1 class="grid-title">Web Design</h1>
-                        <p class="grid-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cupiditate.</p>
+                        <p class="grid-desc">Need a good looking website? We make a full fledged website with aesthetic designs.</p>
                     </div>
 
                     <div class="col-sm-4">
                         <img class="grid-image" src="img/icon-3.png" alt="Icon-3">
                         <h1 class="grid-title">Machine Learning</h1>
-                        <p class="grid-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cupiditate.</p>
+                        <p class="grid-desc">We have the best machine learning APIs and solutions for your various ML related projects. </p>
                     </div>
 
 
@@ -114,72 +114,41 @@
 
                     <div class="col-sm-6 in-order-2 sm-6-content wow animated fadeInRight" data-wow-delay="0.22s">
                         <h1>Web / Desktop / Mobile</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolor iste beatae ad adipisci, fugiat dignissimos pariatur, dolore nemo suscipit cum nisi earum voluptates nulla! </p>
-                        <span class="circle circle-first"><i class="fab fa-instagram"></i></span>
-                        <span class="circle circle-middle"><i class="fab fa-facebook"></i></span>
-                        <span class="circle circle-last"><i class="fab fa-twitter"></i></span>
+                        <p>Our complete service package includes fully integrated web, desktop and mobile software and application. We follow the most convenient and best practice for software development.</p>
+                        <span class="circle circle-first"><i class="fab fa-chrome"></i></span>
+                        <span class="circle circle-middle"><i class="fas fa-desktop"></i></span>
+                        <span class="circle circle-last"><i class="fas fa-mobile"></i></span>
                     </div>
 
                     <div class="col-sm-6 in-order-3 sm-6-content wow animated fadeInLeft" data-wow-delay="0.22s">
                         <h1>AI and stuffs</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolor iste beatae ad adipisci, fugiat dignissimos pariatur, dolore nemo suscipit cum nisi earum voluptates nulla! </p>
-                        <span class="circle circle-first"><i class="fas fa-star"></i></span>
-                        <span class="circle circle-middle"><i class="far fa-star"></i></span>
-                        <span class="circle circle-last"><i class="far fa-thumbs-up"></i></span>
+                        <p>With our Machine Learning APIs you can automate almost everything you can imagine with the potential of Artificial Intelligence. We also provide various algorithms and AI related solutions.</p>
+                        <span class="circle circle-first"><i class="fab fa-android"></i></span>
+                        <span class="circle circle-middle"><i class="fas fa-robot"></i></span>
+                        <span class="circle circle-last"><i class="far fa-lightbulb"></i></span>
                     </div>
 
                     <div class="col-sm-6 in-order-4 wow animated fadeInRight" data-wow-delay="0.22s">
-                        <img class="img-float-right" src="img/stats.png" alt="stats" style="height:500px; width:500px;">
+                        <img class="img-float-right" src="img/stats.png" alt="stats">
                     </div>
 
                     <div class="col-sm-6 in-order-5 wow animated fadeInLeft" data-wow-delay="0.22s">
                         <div class="col-sm-image-container">
-                            <img class="img-float-left" src="img/smartphone-2.png" alt="smartphone-3">
+                            <img class="img-float-left" src="img/arm-kit.png" alt="armkit" style="height:400px; width:350px;">
                         </div>
                     </div>
                     <div class="col-sm-6 in-order-6 sm-6-content wow animated fadeInRight" data-wow-delay="0.22s">
                         <h1>Kits and wares</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolor iste beatae ad adipisci, fugiat dignissimos pariatur, dolore nemo suscipit cum nisi earum voluptates nulla! </p>
-                        <span class="circle circle-first">95%</span>
-                        <span class="circle circle-middle"><i class="fas fa-forward"></i></span>
-                        <span class="circle circle-last"><i class="fab fa-github"></i></span>
+                        <p>Not only the software solutions, we also provide you hardware solutions for your elctronics and mechanical projects. We have worked on a lot of projects related to robotics and embedded system.</p>
+                        <span class="circle circle-first">TTL</span>
+                        <span class="circle circle-middle"><i class="fas fa-microchip"></i></span>
+                        <span class="circle circle-last"><i class="fas fa-plug"></i></span>
                     </div>
                 </div>
             </div>
         </div>
 
 
-
-        <!-- ==========================================================================================================
-                                                          REVIEWS
-             ========================================================================================================== -->
-
-        <div id="fh5co-reviews" class="fh5co-reviews-outer">
-            <h1>What people are saying</h1>
-            <small>Reviews</small>
-            <div class="container fh5co-reviews-inner">
-                <div class="row justify-content-center">
-                    <div class="col-sm-5 wow fadeIn animated" data-wow-delay="0.25s">
-                        <img class="float-left" src="img/quotes-1.jpg" alt="Quote 1">
-                        <p class="testimonial-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis similique quasi.</p>
-                        <small class="testimonial-author">John Doe</small>
-                        <img class="float-right" src="img/quotes-2.jpg" alt="Quote 2">
-                    </div>
-                    <div class="col-sm-5 testimonial-2 wow fadeIn animated" data-wow-delay="0.67s">
-                        <img class="float-left" src="img/quotes-1.jpg" alt="Quote 1">
-                        <p class="testimonial-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis similique quasi.</p>
-                        <small class="testimonial-author">Someone</small>
-                        <img class="float-right" src="img/quotes-2.jpg" alt="Quote 2">
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-
-        <!-- ==========================================================================================================
-                                                     BOTTOM
-        ========================================================================================================== -->
 
         <div id="fh5co-download" class="fh5co-bottom-outer">
             <div class="overlay">
@@ -187,9 +156,10 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <h1>And miles to go before we sleep...</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque suscipit, similique animi saepe, ipsam itaque, tempore minus maxime pariatur error unde fugit tenetur.</p>
-                            <a class="wow fadeIn animated" data-wow-delay="0.25s" href="#"><img class="app-store-btn" src="img/app-store-icon.png" alt="App Store Icon"></a>
-                            <a class="wow fadeIn animated" data-wow-delay="0.67s" href="#"><img class="google-play-btn" src="img/google-play-icon.png" alt="Google Play Icon"></a>
+                            <p>Relation with Scilens is not a temporary one time relation. We build a long term relationship so that we can help you in every steps and give you the solutions you need.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="/contact"><img class="app-store-btn" src="img/contact.png" alt="Contact Icon"></a>
                         </div>
                     </div>
                 </div>
@@ -197,5 +167,4 @@
         </div>
     </div>
 @endsection
-
 
