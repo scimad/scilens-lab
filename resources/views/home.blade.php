@@ -51,6 +51,8 @@
 
 
 
+
+
         <div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
 
             <h1>OUR SERVICES</h1>
@@ -150,6 +152,40 @@
 
 
 
+ <!-- ==========================================================================================================
+                                                          REVIEWS
+             ========================================================================================================== -->
+
+        <div id="fh5co-reviews" class="fh5co-reviews-outer">
+            <!-- <h1>What people are saying</h1>
+            <small>Reviews</small> -->
+            <div class="container fh5co-reviews-inner">
+                <div class="row justify-content-center">
+                    <div class="col-sm-5 wow fadeIn animated" data-wow-delay="0.25s">
+                        <img class="float-left" src="img/quotes-1.jpg" alt="Quote 1">
+                        <p class="testimonial-desc">The intellectual, the moral, the religious seem to me all naturally bound up and interlinked together in one great and harmonious whole.</p>
+                        <small class="testimonial-author">Ada Lovelace</small>
+                        <img class="float-right" src="img/quotes-2.jpg" alt="Quote 2">
+                    </div>
+                    <div class="col-sm-5 testimonial-2 wow fadeIn animated" data-wow-delay="0.67s">
+                        <img class="float-left" src="img/quotes-1.jpg" alt="Quote 1">
+                        <p class="testimonial-desc">“Where the spirit does not work with the hand, there is no art.”</p>
+                        <small class="testimonial-author">Leonardo da Vinci</small>
+                        <img class="float-right" src="img/quotes-2.jpg" alt="Quote 2">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- ==========================================================================================================
+                                                     BOTTOM
+        ========================================================================================================== -->
+
+
+
+
         <div id="fh5co-download" class="fh5co-bottom-outer">
             <div class="overlay">
                 <div class="container fh5co-bottom-inner">
@@ -159,7 +195,7 @@
                             <p>Relation with Scilens is not a temporary one time relation. We build a long term relationship so that we can help you in every steps and give you the solutions you need.</p>
                         </div>
                         <div class="col-sm-6">
-                            <a href="/contact"><img class="app-store-btn" src="img/contact.png" alt="Contact Icon"></a>
+                            <a href="/contact"><img class="app-store-btn" src="img/contact.png" alt="Contact Icon" style="width:200px;height:100px;margin-left:250px;margin-top: 100px;"></a>
                         </div>
                     </div>
                 </div>
