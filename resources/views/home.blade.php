@@ -20,7 +20,7 @@
 
         <div class="fh5co-advantages-outer">
             <div class="container">
-                <h1 class="second-title"><span class="span-perfect">Out</span> <span class="span-features">Tools</span></h1>
+                <h1 class="second-title"><span class="span-perfect">Our</span> <span class="span-features">Tools</span></h1>
                 <small>Let us help you choose what you need</small>
 
                 <div class="row fh5co-advantages-grid-columns wow animated fadeIn" data-wow-delay="0.36s">
@@ -54,52 +54,51 @@
 
 
         <div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
-
-            <h1>OUR SERVICES</h1>
-            <small>Exclusively for 21st century</small>
-                <div class="container text-center">
-                    <h1 class="font-weight-light mb-5">We have expertise in:</h1>
-                    <div class="row mx-auto my-auto">
-                        <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
-                            <div class="carousel-inner w-100" role="listbox">
-                                <div class="carousel-item active">
-                                    <div class="col-lg-4 col-md-6">
-                                        <img class="img-fluid" src="img/javascript.png">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-lg-4 col-md-6">
-                                        <img class="img-fluid" src="img/cpp.png">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-lg-4 col-md-6">
-                                        <img class="img-fluid" src="img/java.png">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-lg-4 col-md-6">
-                                        <img class="img-fluid" src="img/python.png">
-                                    </div>
+            <div class="container text-center">
+                <h1 class="font-weight-light mb-5">We have expertise in:</h1>
+                <div class="row mx-auto my-auto">
+                    <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+                        <div class="carousel-inner w-100" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="col-lg-4 col-md-6">
+                                    <img class="img-fluid" src="img/javascript.png">
                                 </div>
                             </div>
-                            <a class="carousel-control-prev  w-auto" href="#myCarousel" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" style="background-image:url(img/rtar.png); height:50px; width:50px;" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next  w-auto" href="#myCarousel" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" style="background-image:url(img/lftar.png); height:50px; width:50px;" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
+                            <div class="carousel-item">
+                                <div class="col-lg-4 col-md-6">
+                                    <img class="img-fluid" src="img/cpp.png">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-lg-4 col-md-6">
+                                    <img class="img-fluid" src="img/java.png">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-lg-4 col-md-6">
+                                    <img class="img-fluid" src="img/python.png">
+                                </div>
+                            </div>
                         </div>
+                        <a class="carousel-control-prev  w-auto" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" style="background-image:url(img/rtar.png); height:50px; width:50px;" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next  w-auto" href="#myCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" style="background-image:url(img/lftar.png); height:50px; width:50px;" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
+            </div>
         </div>
 
 
 
-
-
+        <div class="fh5co-slider-outer wow fadeIn">
+            <h1>OUR SERVICES</h1>
+            <small>Exclusively for 21st century</small>
+        </div>
 
         <div class="curved-bg-div wow animated fadeIn" data-wow-delay="0.15s"></div>
 
@@ -163,8 +162,8 @@
                 <div class="row justify-content-center">
                     <div class="col-sm-5 wow fadeIn animated" data-wow-delay="0.25s">
                         <img class="float-left" src="img/quotes-1.jpg" alt="Quote 1">
-                        <p class="testimonial-desc">The intellectual, the moral, the religious seem to me all naturally bound up and interlinked together in one great and harmonious whole.</p>
-                        <small class="testimonial-author">Ada Lovelace</small>
+                        <p class="testimonial-desc">When something is important enough, you do it even if the odds are not in your favor.</p>
+                        <small class="testimonial-author">Elon Musk</small>
                         <img class="float-right" src="img/quotes-2.jpg" alt="Quote 2">
                     </div>
                     <div class="col-sm-5 testimonial-2 wow fadeIn animated" data-wow-delay="0.67s">
