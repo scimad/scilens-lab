@@ -13,11 +13,41 @@
 
 @section('content')
 		<div class="wrapper">
-			<div class="row" style="margin-top:150px;">
+			<div class="row" style="margin-top:150px;margin-right:150px;margin-left:150px;">
 				<div class="col-md-3">
 					<div style="margin:20px;">
-						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:175px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
-						<div class="profieCard bg-warning">
+						<img class="image" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/58374419_2313897552190039_9001070250510254080_n.jpg?_nc_cat=102&_nc_sid=85a577&_nc_oc=AQldmJYANc_lUS9y6VNf5blmz-0eo3ArcD4yrMqZ1fxhen4IU0mGiauX12gl79Z5rpo&_nc_ht=scontent.fktm8-1.fna&oh=256cf24ce9b687e79c05f583bd6fb2e0&oe=5EF38522" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
+						<div class="profieCard bg-dark">
+							<h1>Madhav Humagain</h1>
+							<p class="profileTitle">Senior Engineer</p>
+							<div style="margin: 10px 0;">
+								<a href="#"><i class="fab fa-facebook-f"></i></a> 
+								<a href="#"><i class="fab fa-instagram"></i></a>  
+								<a href="#"><i class="fab fa-twitter"></i></a>  
+								<a href="#"><i class="fab fa-linkedin"></i></a>  
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div style="margin:20px;">
+						<img class="image" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/48374924_608780379574865_272490605207093248_n.jpg?_nc_cat=102&_nc_sid=7aed08&_nc_oc=AQle3Iglgqdq3vwI0RLdIcTGCL_lg9nSP8gkSUGXDBKMQEaACKLv_LBkx12I77vNkpc&_nc_ht=scontent.fktm8-1.fna&oh=79d0d65c22bfce0577bceec2d658c942&oe=5EF1271A" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
+						<div class="profieCard bg-dark">
+							<h1>KaVeer Panthi</h1>
+							<p class="profileTitle">Front End Developer</p>
+							<div style="margin: 10px 0;">
+								<a href="#"><i class="fab fa-facebook-f"></i></a> 
+								<a href="#"><i class="fab fa-instagram"></i></a>  
+								<a href="#"><i class="fab fa-twitter"></i></a>  
+								<a href="#"><i class="fab fa-linkedin"></i></a>  
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div style="margin:20px;">
+						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
+						<div class="profieCard bg-dark">
 							<h1>John Doe</h1>
 							<p class="profileTitle">CEO & Founder</p>
 							<div style="margin: 10px 0;">
@@ -31,37 +61,7 @@
 				</div>
 				<div class="col-md-3">
 					<div style="margin:20px;">
-						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:175px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
-						<div class="profieCard bg-success">
-							<h1>John Doe</h1>
-							<p class="profileTitle">CEO & Founder</p>
-							<div style="margin: 10px 0;">
-								<a href="#"><i class="fab fa-facebook-f"></i></a> 
-								<a href="#"><i class="fab fa-instagram"></i></a>  
-								<a href="#"><i class="fab fa-twitter"></i></a>  
-								<a href="#"><i class="fab fa-linkedin"></i></a>  
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div style="margin:20px;">
-						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:175px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
-						<div class="profieCard bg-primary">
-							<h1>John Doe</h1>
-							<p class="profileTitle">CEO & Founder</p>
-							<div style="margin: 10px 0;">
-								<a href="#"><i class="fab fa-facebook-f"></i></a> 
-								<a href="#"><i class="fab fa-instagram"></i></a>  
-								<a href="#"><i class="fab fa-twitter"></i></a>  
-								<a href="#"><i class="fab fa-linkedin"></i></a>  
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div style="margin:20px;">
-						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:175px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
+						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
 						<div class="profieCard bg-dark">
 							<h1>John Doe</h1>
 							<p class="profileTitle">CEO & Founder</p>
