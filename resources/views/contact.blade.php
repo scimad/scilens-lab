@@ -5,7 +5,7 @@
 	 <div class="container fh5co-hero-inner">
         <h1 class="animated fadeIn wow" data-wow-delay="0.4s">Meet our team</h1>
         <p class="animated fadeIn wow" data-wow-delay="0.67s">4x4 is a collective emergence of skillful engineers and experienced developers. We don't leave any of the encountered problems unsolved. Solution is always the primary essence of Scilens.</p>
-        <button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s" onclick="$('#fh5co-features').goTo();return false;">Contact Us</button>
+        <button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s" onclick="$('#fh5co-download').goTo();return false;">Contact Us</button>
         <img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s" src="img/team.png" alt="Team" style="height:400px; width:400px;">
     </div>
 @endsection
@@ -16,7 +16,7 @@
 			<div class="row" style="margin-top:150px;">
 				<div class="col-md-3">
 					<div style="margin:20px;">
-						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:200px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
+						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:175px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
 						<div class="profieCard bg-warning">
 							<h1>John Doe</h1>
 							<p class="profileTitle">CEO & Founder</p>
@@ -31,7 +31,7 @@
 				</div>
 				<div class="col-md-3">
 					<div style="margin:20px;">
-						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:200px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
+						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:175px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
 						<div class="profieCard bg-success">
 							<h1>John Doe</h1>
 							<p class="profileTitle">CEO & Founder</p>
@@ -46,7 +46,7 @@
 				</div>
 				<div class="col-md-3">
 					<div style="margin:20px;">
-						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:200px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
+						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:175px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
 						<div class="profieCard bg-primary">
 							<h1>John Doe</h1>
 							<p class="profileTitle">CEO & Founder</p>
@@ -61,7 +61,7 @@
 				</div>
 				<div class="col-md-3">
 					<div style="margin:20px;">
-						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:200px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
+						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:175px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
 						<div class="profieCard bg-dark">
 							<h1>John Doe</h1>
 							<p class="profileTitle">CEO & Founder</p>
