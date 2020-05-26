@@ -13,7 +13,7 @@
 
 @section('content')
 		<div class="wrapper">
-			<div class="row" style="margin-top:150px;margin-right:150px;margin-left:150px;">
+			<div class="row" style="margin-top:150px;margin-right:100px;margin-left:100px;">
 				<div class="col-md-3">
 					<div style="margin:20px;">
 						<img class="image" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/58374419_2313897552190039_9001070250510254080_n.jpg?_nc_cat=102&_nc_sid=85a577&_nc_oc=AQldmJYANc_lUS9y6VNf5blmz-0eo3ArcD4yrMqZ1fxhen4IU0mGiauX12gl79Z5rpo&_nc_ht=scontent.fktm8-1.fna&oh=256cf24ce9b687e79c05f583bd6fb2e0&oe=5EF38522" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
