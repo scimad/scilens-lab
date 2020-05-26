@@ -19,7 +19,37 @@
 						<img class="image" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/58374419_2313897552190039_9001070250510254080_n.jpg?_nc_cat=102&_nc_sid=85a577&_nc_oc=AQldmJYANc_lUS9y6VNf5blmz-0eo3ArcD4yrMqZ1fxhen4IU0mGiauX12gl79Z5rpo&_nc_ht=scontent.fktm8-1.fna&oh=256cf24ce9b687e79c05f583bd6fb2e0&oe=5EF38522" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
 						<div class="profieCard bg-dark">
 							<h1>Madhav Humagain</h1>
-							<p class="profileTitle">Senior Engineer</p>
+							<p class="profileTitle">Sr. Developer Engineer</p>
+							<div style="margin: 10px 0;">
+								<a href="#"><i class="fab fa-facebook-f"></i></a> 
+								<a href="#"><i class="fab fa-instagram"></i></a>  
+								<a href="#"><i class="fab fa-twitter"></i></a>  
+								<a href="#"><i class="fab fa-linkedin"></i></a>  
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div style="margin:20px;">
+						<img class="image" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/30716494_1885752108122222_3843364949548072960_n.jpg?_nc_cat=100&_nc_sid=7aed08&_nc_oc=AQlJAvlqOiZosuy4Mad7-QY3nCerrymarwGcve_TlpyEFmf8olAz8C4OhwGKU5hHYRc&_nc_ht=scontent.fktm8-1.fna&oh=54bac11093d7e9278198daab7e766f8a&oe=5EF0EA3C" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
+						<div class="profieCard bg-dark">
+							<h1>Govinda Sapkota</h1>
+							<p class="profileTitle">Sr. Backend Developer</p>
+							<div style="margin: 10px 0;">
+								<a href="#"><i class="fab fa-facebook-f"></i></a> 
+								<a href="#"><i class="fab fa-instagram"></i></a>  
+								<a href="#"><i class="fab fa-twitter"></i></a>  
+								<a href="#"><i class="fab fa-linkedin"></i></a>  
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div style="margin:20px;">
+						<img class="image" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/p960x960/46998189_2403184309710348_2290649369130565632_o.jpg?_nc_cat=108&_nc_sid=7aed08&_nc_oc=AQmw-2CmAYSbUtg2dm7KRvbaxdHLjZkj28keC9DIsNsr3KTj674--MIENVlfG4UvUxo&_nc_ht=scontent.fktm8-1.fna&_nc_tp=6&oh=022e6cd244f8f3885d366c903ef238df&oe=5EF22A54" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
+						<div class="profieCard bg-dark">
+							<h1>Kapindra Raut</h1>
+							<p class="profileTitle">Sr. Front End Designer</p>
 							<div style="margin: 10px 0;">
 								<a href="#"><i class="fab fa-facebook-f"></i></a> 
 								<a href="#"><i class="fab fa-instagram"></i></a>  
@@ -44,36 +74,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
-					<div style="margin:20px;">
-						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
-						<div class="profieCard bg-dark">
-							<h1>John Doe</h1>
-							<p class="profileTitle">CEO & Founder</p>
-							<div style="margin: 10px 0;">
-								<a href="#"><i class="fab fa-facebook-f"></i></a> 
-								<a href="#"><i class="fab fa-instagram"></i></a>  
-								<a href="#"><i class="fab fa-twitter"></i></a>  
-								<a href="#"><i class="fab fa-linkedin"></i></a>  
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div style="margin:20px;">
-						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
-						<div class="profieCard bg-dark">
-							<h1>John Doe</h1>
-							<p class="profileTitle">CEO & Founder</p>
-							<div style="margin: 10px 0;">
-								<a href="#"><i class="fab fa-facebook-f"></i></a> 
-								<a href="#"><i class="fab fa-instagram"></i></a>  
-								<a href="#"><i class="fab fa-twitter"></i></a>  
-								<a href="#"><i class="fab fa-linkedin"></i></a>  
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 
@@ -88,10 +88,10 @@
 					<div class="communication">
 						<h5><p>We always welcome your communication and feedback. Feel free to contact us through email or call.</p></h5>
 						<h5><img src="./images/call.png">+9779849879199</h5><br><br>
-						<h5><img src="./images/email.png">scilens_lab@gmail.com</h5><br><br>
-						<h5><img src="./images/facebook.png">facebook.com/scilenslab</h5><br><br>
-						<h5><img src="./images/twitter.png">twitter.com/scilenslab</h5><br><br>
-						<h5><img src="./images/instagram.png">instagram.com/scilenslab</h5><br>
+						<h5><img src="./images/email.png">scilens4x4@gmail.com</h5><br><br>
+						<h5><img src="./images/facebook.png">facebook.com/scilens4x4</h5><br><br>
+						<h5><img src="./images/twitter.png">twitter.com/scilens4x4</h5><br><br>
+						<h5><img src="./images/instagram.png">instagram.com/scilens4x4</h5><br>
 					</div>
 				</div>
 		
