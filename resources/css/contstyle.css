@@ -23,3 +23,17 @@
 	padding-left: 50px; 
 	padding-right: 50px;
 }
+
+.profieCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.profileTitle {
+  color: grey;
+  font-size: 18px;
+}
