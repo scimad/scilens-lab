@@ -87,7 +87,7 @@
 					<img src="./images/01.png" class="secwrapper">
 					<div class="communication">
 						<h5><p>We always welcome your communication and feedback. Feel free to contact us through email or call.</p></h5>
-						<h5><img src="./images/call.png">+9779849879199</h5><br><br>
+						<h5><img src="./images/call.png">+977-9818-500-612</h5><br><br>
 						<h5><img src="./images/email.png">scilens4x4@gmail.com</h5><br><br>
 						<h5><img src="./images/facebook.png">facebook.com/scilens4x4</h5><br><br>
 						<h5><img src="./images/twitter.png">twitter.com/scilens4x4</h5><br><br>
