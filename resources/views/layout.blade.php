@@ -36,14 +36,14 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav nav-items-center ml-auto mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="$('#fh5co-features').goTo();return false;">Features</a>
+                        <a class="nav-link" href="#">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="$('#fh5co-reviews').goTo();return false;">Reviews</a>
+                        <a class="nav-link" href="#">News</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/contact">Contact</a>
@@ -74,9 +74,9 @@
                     <nav class="footer-nav">
                         <ul>
                             <a href="/"><li>Home</li></a>
-                            <a href="#" onclick="$('#fh5co-features').goTo();return false;"><li>Features</li></a>
-                            <a href="#" onclick="$('#fh5co-reviews').goTo();return false;"><li>Reviews</li></a>
-                            <a href="/contact"><li class="active">Contact</li></a>
+                            <a href="#"><li>Projects</li></a>
+                            <a href="#"><li>News</li></a>
+                            <a href="/contact"><li>Contact</li></a>
                         </ul>
                     </nav>
                 </div>
