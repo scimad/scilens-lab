@@ -12,12 +12,12 @@
 
 
 @section('content')
-		<div class="container" style="margin-top:150px;">
-			<div class="row">
-				<div class="col-1-4">
+		<div class="wrapper">
+			<div class="row" style="margin-top:150px;">
+				<div class="col-md-3">
 					<div style="margin:20px;">
 						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:200px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
-						<div class="profieCard">
+						<div class="profieCard bg-warning">
 							<h1>John Doe</h1>
 							<p class="profileTitle">CEO & Founder</p>
 							<div style="margin: 10px 0;">
@@ -29,10 +29,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-2-4">
+				<div class="col-md-3">
 					<div style="margin:20px;">
 						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:200px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
-						<div class="profieCard">
+						<div class="profieCard bg-success">
 							<h1>John Doe</h1>
 							<p class="profileTitle">CEO & Founder</p>
 							<div style="margin: 10px 0;">
@@ -44,10 +44,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-3-4">
+				<div class="col-md-3">
 					<div style="margin:20px;">
 						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:200px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
-						<div class="profieCard">
+						<div class="profieCard bg-primary">
 							<h1>John Doe</h1>
 							<p class="profileTitle">CEO & Founder</p>
 							<div style="margin: 10px 0;">
@@ -59,10 +59,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-4-4">
+				<div class="col-md-3">
 					<div style="margin:20px;">
 						<img class="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:200px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
-						<div class="profieCard">
+						<div class="profieCard bg-dark">
 							<h1>John Doe</h1>
 							<p class="profileTitle">CEO & Founder</p>
 							<div style="margin: 10px 0;">
