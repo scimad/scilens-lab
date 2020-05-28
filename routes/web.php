@@ -22,3 +22,6 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/post', function () {
+    return view('post');
+});

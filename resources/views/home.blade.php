@@ -194,7 +194,9 @@
                             <p>Relation with Scilens is not a temporary one time relation. We build a long term relationship so that we can help you in every steps and give you the solutions you need.</p>
                         </div>
                         <div class="col-sm-6">
-                            <a href="/contact"><img class="app-store-btn" src="img/contact.png" alt="Contact Icon" style="width:200px;height:100px;margin-left:250px;margin-top: 100px;"></a>
+                            <div style="text-align: center;">
+                                <a href="/contact"><img class="app-store-btn" src="img/contact.png" alt="Contact Icon" style="width:200px;height:100px; margin-top: 50px;"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
