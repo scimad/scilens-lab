@@ -14,11 +14,11 @@
 @section('content')
 		<div class="wrapper">
 			<div class="row" style="margin-top:150px;margin-right:100px;margin-left:100px;">
-				<div class="col-md-3">
+				<div class="col-lg-4">
 					<div style="margin:20px;">
 						<img class="image" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/58374419_2313897552190039_9001070250510254080_n.jpg?_nc_cat=102&_nc_sid=85a577&_nc_oc=AQldmJYANc_lUS9y6VNf5blmz-0eo3ArcD4yrMqZ1fxhen4IU0mGiauX12gl79Z5rpo&_nc_ht=scontent.fktm8-1.fna&oh=256cf24ce9b687e79c05f583bd6fb2e0&oe=5EF38522" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
 						<div class="profieCard bg-dark">
-							<h1>Madhav Humagain</h1>
+							<h3>Madhav Humagain</h3>
 							<p class="profileTitle">Backend Developer</p>
 							<div style="margin: 10px 0;">
 								<a href="#"><i class="fab fa-facebook-f"></i></a> 
@@ -29,11 +29,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-lg-4">
 					<div style="margin:20px;">
 						<img class="image" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/30716494_1885752108122222_3843364949548072960_n.jpg?_nc_cat=100&_nc_sid=7aed08&_nc_oc=AQlJAvlqOiZosuy4Mad7-QY3nCerrymarwGcve_TlpyEFmf8olAz8C4OhwGKU5hHYRc&_nc_ht=scontent.fktm8-1.fna&oh=54bac11093d7e9278198daab7e766f8a&oe=5EF0EA3C" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
 						<div class="profieCard bg-dark">
-							<h1>Govinda Sapkota</h1>
+							<h3>Govinda Sapkota</h3>
 							<p class="profileTitle">Sr. Backend Developer</p>
 							<div style="margin: 10px 0;">
 								<a href="#"><i class="fab fa-facebook-f"></i></a> 
@@ -44,11 +44,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-lg-4">
 					<div style="margin:20px;">
 						<img class="image" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/p960x960/46998189_2403184309710348_2290649369130565632_o.jpg?_nc_cat=108&_nc_sid=7aed08&_nc_oc=AQmw-2CmAYSbUtg2dm7KRvbaxdHLjZkj28keC9DIsNsr3KTj674--MIENVlfG4UvUxo&_nc_ht=scontent.fktm8-1.fna&_nc_tp=6&oh=022e6cd244f8f3885d366c903ef238df&oe=5EF22A54" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
 						<div class="profieCard bg-dark">
-							<h1>Kapindra Raut</h1>
+							<h3>Kapindra Raut</h3>
 							<p class="profileTitle">Sr. Front End Designer</p>
 							<div style="margin: 10px 0;">
 								<a href="#"><i class="fab fa-facebook-f"></i></a> 
@@ -59,11 +59,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-lg-4">
 					<div style="margin:20px;">
 						<img class="image" src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/48374924_608780379574865_272490605207093248_n.jpg?_nc_cat=102&_nc_sid=7aed08&_nc_oc=AQle3Iglgqdq3vwI0RLdIcTGCL_lg9nSP8gkSUGXDBKMQEaACKLv_LBkx12I77vNkpc&_nc_ht=scontent.fktm8-1.fna&oh=79d0d65c22bfce0577bceec2d658c942&oe=5EF1271A" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
 						<div class="profieCard bg-dark">
-							<h1>KaVeer Panthi</h1>
+							<h3>KaVeer Panthi</h3>
 							<p class="profileTitle">Front End Developer</p>
 							<div style="margin: 10px 0;">
 								<a href="#"><i class="fab fa-facebook-f"></i></a> 
