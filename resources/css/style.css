@@ -917,9 +917,8 @@ html {
 
   
 }
-@media screen and (max-width: 800px) {
 
-
+@media screen and (max-width: 768px) {
   .fh5co-bottom-inner {
     overflow: hidden;
     padding-bottom: 50px;
@@ -931,9 +930,13 @@ html {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
   }
+}  
 
-}
 @media screen and (max-width: 520px) {
   #fh5co-hero-wrapper {
     height: 900px;
