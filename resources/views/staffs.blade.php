@@ -13,25 +13,27 @@
 @section('content')
 	<div class="wrapper">
 		<div class="row" style="margin-top:150px;margin-right:100px;margin-left:100px;">
-		<?php
-		if(count($staffs)>0)
-			foreach($staffs as $staff): ?>
-				<div class="col-lg-4">
-					<div style="margin:20px;">
-						<img class="image" src="/images/{{$staff->image}}" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
-						<div class="profieCard bg-dark">
-							<h3>{{$staff->name}}</h3>
-							<p class="profileTitle">{{$staff->position}}</p>
-							<div style="margin: 10px 0;">
-								<a href="#"><i class="fab fa-facebook-f"></i></a> 
-								<a href="#"><i class="fab fa-instagram"></i></a>  
-								<a href="#"><i class="fab fa-twitter"></i></a>  
-								<a href="#"><i class="fab fa-linkedin"></i></a>  
+		
+			@if(count($staffs)>0)
+				@foreach($staffs as $staff)
+					<div class="col-lg-4">
+						<div style="margin:20px;">
+							<img class="image" src="/images/{{$staff->image}}" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
+							<div class="profieCard bg-dark">
+								<h3>{{$staff->name}}</h3>
+								<p class="profileTitle">{{$staff->position}}</p>
+								<div style="margin: 10px 0;">
+									<a href="#"><i class="fab fa-facebook-f"></i></a> 
+									<a href="#"><i class="fab fa-instagram"></i></a>  
+									<a href="#"><i class="fab fa-twitter"></i></a>  
+									<a href="#"><i class="fab fa-linkedin"></i></a>  
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			<?php endforeach; ?>
+				@endforeach
+			@endif
+		
 		</div>
 	</div>
 

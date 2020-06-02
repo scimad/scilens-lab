@@ -18,10 +18,9 @@ Route::get('/', function () {
 });
 
 
+Route::get('/contact', 'StaffsController@index');
+
 Route::get('/post', function () {
     return view('post');
 });
-
-Route::get('/contact', 'StaffsController@index');
-
 
