@@ -1,4 +1,3 @@
-
 @extends('layout')
 
 @section('subheader')
@@ -12,14 +11,17 @@
 
 
 @section('content')
-		<div class="wrapper">
-			<div class="row" style="margin-top:150px;margin-right:100px;margin-left:100px;">
+	<div class="wrapper">
+		<div class="row" style="margin-top:150px;margin-right:100px;margin-left:100px;">
+		<?php
+		if(count($staffs)>0)
+			foreach($staffs as $staff): ?>
 				<div class="col-lg-4">
 					<div style="margin:20px;">
-						<img class="image" src="./images/u1.jpg" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
+						<img class="image" src="/images/{{$staff->image}}" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
 						<div class="profieCard bg-dark">
-							<h3>Madhav Humagain</h3>
-							<p class="profileTitle">Backend Developer</p>
+							<h3>{{$staff->name}}</h3>
+							<p class="profileTitle">{{$staff->position}}</p>
 							<div style="margin: 10px 0;">
 								<a href="#"><i class="fab fa-facebook-f"></i></a> 
 								<a href="#"><i class="fab fa-instagram"></i></a>  
@@ -29,53 +31,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4">
-					<div style="margin:20px;">
-						<img class="image" src="./images/u2.jpg" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
-						<div class="profieCard bg-dark">
-							<h3>Govinda Sapkota</h3>
-							<p class="profileTitle">Sr. Backend Developer</p>
-							<div style="margin: 10px 0;">
-								<a href="#"><i class="fab fa-facebook-f"></i></a> 
-								<a href="#"><i class="fab fa-instagram"></i></a>  
-								<a href="#"><i class="fab fa-twitter"></i></a>  
-								<a href="#"><i class="fab fa-linkedin"></i></a>  
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div style="margin:20px;">
-						<img class="image" src="./images/u3.jpg" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
-						<div class="profieCard bg-dark">
-							<h3>Kapindra Raut</h3>
-							<p class="profileTitle">Sr. Front End Designer</p>
-							<div style="margin: 10px 0;">
-								<a href="#"><i class="fab fa-facebook-f"></i></a> 
-								<a href="#"><i class="fab fa-instagram"></i></a>  
-								<a href="#"><i class="fab fa-twitter"></i></a>  
-								<a href="#"><i class="fab fa-linkedin"></i></a>  
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div style="margin:20px;">
-						<img class="image" src="./images/u4.jpg" alt="Avatar" style="width:150px;border-radius: 50%; display: block; margin-left: auto; margin-right: auto;"><br>
-						<div class="profieCard bg-dark">
-							<h3>KaVeer Panthi</h3>
-							<p class="profileTitle">Front End Developer</p>
-							<div style="margin: 10px 0;">
-								<a href="#"><i class="fab fa-facebook-f"></i></a> 
-								<a href="#"><i class="fab fa-instagram"></i></a>  
-								<a href="#"><i class="fab fa-twitter"></i></a>  
-								<a href="#"><i class="fab fa-linkedin"></i></a>  
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php endforeach; ?>
 		</div>
+	</div>
 
 
 
