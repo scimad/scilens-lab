@@ -24,3 +24,10 @@ Route::get('/post', function () {
     return view('post');
 });
 
+Route::get('/admin', function () {
+    return view('admin.main');
+});
+
+Route::get('/admin-test', function () {
+    return view('admin.test');
+});
