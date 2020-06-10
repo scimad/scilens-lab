@@ -24,10 +24,6 @@ Route::get('/post', function () {
     return view('post');
 });
 
-Route::get('/admin', function () {
-    return view('admin.main');
-});
-
-Route::get('/admin-test', function () {
-    return view('admin.test');
-});
+Route::get('/admin','AdminController@index');
+Route::get('/admin-test','AdminController@test');
+Route::get('/admin-components','AdminController@components');
