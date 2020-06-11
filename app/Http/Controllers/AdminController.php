@@ -18,4 +18,8 @@ class AdminController extends Controller
     	return view('admin.components');
     }
 
+    public function artisan(){
+    	return view('admin.artisan');
+    }
+
 }

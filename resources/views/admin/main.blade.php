@@ -17,9 +17,9 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="forms.html">
-                        <i class="la la-keyboard-o"></i>
-                        <p>Forms</p>
+                    <a href="/admin-artisan">
+                        <i class="la la-users"></i>
+                        <p>Artisan</p>
                         <span class="badge badge-count">50</span>
                     </a>
                 </li>

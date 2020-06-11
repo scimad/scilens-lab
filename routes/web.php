@@ -27,3 +27,4 @@ Route::get('/post', function () {
 Route::get('/admin','AdminController@index');
 Route::get('/admin-test','AdminController@test');
 Route::get('/admin-components','AdminController@components');
+Route::get('/admin-artisan','AdminController@artisan');
