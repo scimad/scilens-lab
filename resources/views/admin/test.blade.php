@@ -1,4 +1,4 @@
-@extends("admin.layout")
+@extends("admin.layout.main")
 
 @section('sidebar')
 	<ul class="nav">
@@ -9,7 +9,7 @@
                 <span class="badge badge-count">50</span>
                 <span class="caret"></span>
             </a>
-            
+
             <div class="collapse in" id="collapseArtisan" aria-expanded="true" style="">
                 <ul class="nav">
                     <li>
