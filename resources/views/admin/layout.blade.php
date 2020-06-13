@@ -25,7 +25,6 @@
         </div>
         <nav class="navbar navbar-header navbar-expand-lg">
             <div class="container-fluid">
-
                 <form class="navbar-left navbar-form nav-search mr-md-3" action="">
                     <div class="input-group">
                         <input type="text" placeholder="Search ..." class="form-control">
@@ -130,47 +129,7 @@
             </div>
         </nav>
     </div>
-    <div class="sidebar">
-        <div class="scrollbar-inner sidebar-wrapper">
-            <div class="user">
-                <div class="photo">
-                    <img src="/admin_compiled/img/profile.jpg">
-                </div>
-                <div class="info">
-                    <a class="" data-toggle="collapse" href="#collapseExample" aria-expanded="true">
-							<span>
-								Hizrian
-								<span class="user-level">Administrator</span>
-								<span class="caret"></span>
-							</span>
-                    </a>
-                    <div class="clearfix"></div>
-
-                    <div class="collapse in" id="collapseExample" aria-expanded="true">
-                        <ul class="nav">
-                            <li>
-                                <a href="#profile">
-                                    <span class="link-collapse">My Profile</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#edit">
-                                    <span class="link-collapse">Edit Profile</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#settings">
-                                    <span class="link-collapse">Settings</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            @include("admin.partials.sidebar")
-        </div>
-    </div>
-
+    @include("admin.partials.sidebar")
 	<div class="main-panel">
             <div class="content">
                 <div class="container-fluid" style="min-height:600px;">
