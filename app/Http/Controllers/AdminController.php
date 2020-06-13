@@ -10,7 +10,7 @@ class AdminController extends Controller
         $tab = strtolower($request->query('tab', 'dashboard'));
         switch ($tab):
             case 'dashboard':
-                return view('admin.main');
+                return view('admin.dashboard');
                 break;
             case 'recruit':
                 return view('admin.artisan');
@@ -19,7 +19,7 @@ class AdminController extends Controller
                 return view('admin.components');
                 break;
             default:
-                return view('admin.main');
+                return view('admin.dashboard');
                 endswitch;
     }
 
