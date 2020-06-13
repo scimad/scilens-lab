@@ -37,14 +37,14 @@
         </div>
         <ul class="nav">
             <li class="nav-item">
-                <a href="/admin">
+                <a href="/admin?tab=dashboard">
                     <i class="la la-dashboard"></i>
                     <p>Dashboard</p>
                     <span class="badge badge-count">5</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="/admin-components">
+                <a href="/admin?tab=components">
                     <i class="la la-table"></i>
                     <p>Components</p>
                 </a>
@@ -59,17 +59,17 @@
                 <div class="collapse in" id="collapseArtisan" aria-expanded="true">
                     <ul class="nav">
                         <li>
-                            <a href="/admin-artisan">
+                            <a href="/admin?tab=recruit">
                                 <span class="link-collapse">Recruit</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#view">
+                            <a href="/amdin?tab=view">
                                 <span class="link-collapse">View All</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#fire">
+                            <a href="/admin?tab=fire">
                                 <span class="link-collapse">Fire</span>
                             </a>
                         </li>
@@ -77,21 +77,21 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a href="notifications.html">
+                <a href="/admin?tab=notifications">
                     <i class="la la-bell"></i>
                     <p>Notifications</p>
                     <span class="badge badge-success">3</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="typography.html">
+                <a href="/admin?tab=typography">
                     <i class="la la-font"></i>
                     <p>Typography</p>
                     <span class="badge badge-danger">25</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="icons.html">
+                <a href="/admin?tab=icons">
                     <i class="la la-fonticons"></i>
                     <p>Icons</p>
                 </a>

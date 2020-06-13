@@ -6,20 +6,25 @@ use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
-    public function index(){
-    	return view('admin.main');
+    public function index(Request $request){
+        $tab = strtolower($request->query('tab', 'dashboard'));
+        switch ($tab):
+            case 'dashboard':
+                return view('admin.main');
+                break;
+            case 'recruit':
+                return view('admin.artisan');
+                break;
+            case 'components':
+                return view('admin.components');
+                break;
+            default:
+                return view('admin.main');
+                endswitch;
     }
 
     public function test(){
     	return view('admin.test');
-    }
-
-    public function components(){
-    	return view('admin.components');
-    }
-
-    public function artisan(){
-    	return view('admin.artisan');
     }
 
 }
