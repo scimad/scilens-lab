@@ -24,6 +24,5 @@ Route::get('/post', function () {
 });
 
 Route::get('/admin','AdminController@index');
-Route::get('/admin-test','AdminController@test');
 
 Auth::routes();

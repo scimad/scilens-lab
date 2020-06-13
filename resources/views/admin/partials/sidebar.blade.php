@@ -77,6 +77,13 @@
                 </div>
             </li>
             <li class="nav-item">
+                <a href="/admin?tab=forms">
+                    <i class="la la-bell"></i>
+                    <p>Forms</p>
+                    <span class="badge badge-success">3</span>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a href="/admin?tab=notifications">
                     <i class="la la-bell"></i>
                     <p>Notifications</p>
