@@ -17,7 +17,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-
 Route::get('/contact', 'StaffsController@index');
 
 Route::get('/post', function () {
@@ -26,3 +25,5 @@ Route::get('/post', function () {
 
 Route::get('/admin','AdminController@index');
 Route::get('/admin-test','AdminController@test');
+
+Auth::routes();
