@@ -18,6 +18,11 @@ class CreateStaffTable extends Migration
             $table->string('image')->default('default.png');
             $table->string('name');
             $table->string('position');
+            $table->string('facebook');
+            $table->string('instagram');
+            $table->string('twitter');
+            $table->string('linkedin');
+            $table->string('address');
             $table->timestamps();
         });
     }

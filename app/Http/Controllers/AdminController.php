@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Staff;
 
 class AdminController extends Controller
 {
@@ -33,7 +34,8 @@ class AdminController extends Controller
                 return view('admin.typography');
                 break;
             case 'view':
-                return view('admin.artisanview');
+                $staffs = Staff::all();
+                return view('admin.artisanview')->with('staffs', $staffs);
                 break;
             case 'fire':
                 return view('admin.artisanfire');

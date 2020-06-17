@@ -24,5 +24,6 @@ Route::get('/post', function () {
 });
 
 Route::get('/admin','AdminController@index');
+Route::post('/staff','StaffsController@store');
 
 Auth::routes();

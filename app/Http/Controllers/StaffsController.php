@@ -16,9 +16,17 @@ class StaffsController extends Controller
 
     }
 
-    // public function store(){
-
-    // }
+    public function store(){
+        $staff = new Staff();
+        $staff->name = request('fname');
+        $staff->position = request('position');
+        $staff->facebook = request('fblink');
+        $staff->instagram = request('iglink');
+        $staff->twitter = request('ttlink');
+        $staff->linkedin = request('lilink');
+        $staff->address = request('address');
+        $staff->save(); 
+    }
 
     // public function show(){
 

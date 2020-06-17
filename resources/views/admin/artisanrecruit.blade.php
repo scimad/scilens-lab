@@ -3,7 +3,8 @@
 @section('content')
     <div class="container">
         <h3>Register Staff</h3>
-        <form action="/action_page.php">
+        <form action="/staff" method="post">
+          @csrf
             <br>
             <h4>General Info</h4>
             <div class="row">
