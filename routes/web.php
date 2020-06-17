@@ -18,14 +18,15 @@ Route::get('/', function () {
 });
 
 Route::get('/contact', 'StaffsController@index');
+Route::delete('/staff/{id}','StaffsController@destroy');
+Route::post('/staff','StaffsController@store');
 
 Route::get('/post', function () {
     return view('post');
 });
 
 Route::get('/admin','AdminController@index');
-Route::delete('/staff/{id}','StaffsController@destroy');
-Route::post('/staff','StaffsController@store');
+
 
 
 Auth::routes();
