@@ -24,6 +24,8 @@ Route::get('/post', function () {
 });
 
 Route::get('/admin','AdminController@index');
+Route::delete('/staff/{id}','StaffsController@destroy');
 Route::post('/staff','StaffsController@store');
+
 
 Auth::routes();

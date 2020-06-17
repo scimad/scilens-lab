@@ -25,12 +25,16 @@ class StaffsController extends Controller
         $staff->twitter = request('ttlink');
         $staff->linkedin = request('lilink');
         $staff->address = request('address');
-        $staff->save(); 
+        $staff->save();
+        return redirect('/admin?tab=recruit');
     }
 
-    // public function show(){
+    public function destroy($id){
+        $staff = Staff::find($id);
+        $staff->delete();
 
-    // }
+        return redirect('/admin?tab=fire');
+    }
 
 
     //edit

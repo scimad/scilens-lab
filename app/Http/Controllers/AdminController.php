@@ -38,7 +38,8 @@ class AdminController extends Controller
                 return view('admin.artisanview')->with('staffs', $staffs);
                 break;
             case 'fire':
-                return view('admin.artisanfire');
+                $staffs = Staff::all();
+                return view('admin.artisanfire')->with('staffs', $staffs);
                 break;
             default:
                 return view('admin.dashboard');
