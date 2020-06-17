@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <h3>Register Staff</h3>
-        <form action="/staff" method="post">
+        <form action="{{ action('StaffsController@store')}}" method="post">
           @csrf
             <br>
             <h4>General Info</h4>

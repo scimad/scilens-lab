@@ -21,6 +21,8 @@
 				</div>
 			</div>
 		@endforeach
+	@else
+	<h1>Nobody here!!!</h1>
 	@endif
 </div>
 
