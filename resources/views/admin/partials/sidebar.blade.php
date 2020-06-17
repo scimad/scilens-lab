@@ -64,7 +64,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/amdin?tab=view">
+                            <a href="/admin?tab=view">
                                 <span class="link-collapse">View All</span>
                             </a>
                         </li>

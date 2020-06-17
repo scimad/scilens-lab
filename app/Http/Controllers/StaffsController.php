@@ -12,9 +12,9 @@ class StaffsController extends Controller
     	return view('staffs')->with('staffs', $staffs);
     }
 
-    // public function create(){
+    public function create(){
 
-    // }
+    }
 
     // public function store(){
 
