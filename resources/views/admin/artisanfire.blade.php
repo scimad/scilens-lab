@@ -2,7 +2,14 @@
 
 
 @section('content')
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("form").submit(function(){
+    alert("This Staff will be deleted.");
+  });
+});
+</script>
 <div class="row">
 
 	@if(count($staffs)>0)

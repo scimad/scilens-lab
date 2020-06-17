@@ -34,6 +34,7 @@ class StaffsController extends Controller
         $staff->delete();
 
         return redirect('/admin?tab=fire');
+
     }
 
 
