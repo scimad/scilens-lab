@@ -11,6 +11,7 @@
     <!-- Fonts & Styles -->
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link rel="stylesheet" href="/admin_compiled/css/bootstrap.min.css">
     <link rel="stylesheet" href="/admin_compiled/css/ready.css">
 	<link rel="stylesheet" href="/admin_compiled/css/demo.css">
