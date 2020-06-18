@@ -30,3 +30,7 @@ Route::get('/admin','AdminController@index');
 
 
 Auth::routes();
+
+Route::fallback(function(){
+   Route::redirect(abort(404));
+});
