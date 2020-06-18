@@ -16,13 +16,26 @@ class StaffsController extends Controller
 
     // }
 
-    // public function store(){
+    public function store(){
+        $staff = new Staff();
+        $staff->name = request('fname');
+        $staff->position = request('position');
+        $staff->facebook = request('fblink');
+        $staff->instagram = request('iglink');
+        $staff->twitter = request('ttlink');
+        $staff->linkedin = request('lilink');
+        $staff->address = request('address');
+        $staff->save();
+        return redirect('/admin?tab=recruit');
+    }
 
-    // }
+    public function destroy($id){
+        $staff = Staff::find($id);
+        $staff->delete();
 
-    // public function show(){
+        return redirect('/admin?tab=fire');
 
-    // }
+    }
 
 
     //edit

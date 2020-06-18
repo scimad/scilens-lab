@@ -1,0 +1,19 @@
+@extends("admin.layout.main")
+
+@section('content')
+    <h4 class="page-title">Icons</h4>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">Line Awesome Icons</div>
+                    <div class="card-category">Modern Line Icon from <a class="link" href="https://icons8.com/line-awesome">icon8</a></div>
+                </div>
+                <div class="card-body">
+                    <div id="row-demo-icon" class="row">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
