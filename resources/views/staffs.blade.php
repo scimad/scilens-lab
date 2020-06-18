@@ -23,10 +23,20 @@
 								<h3>{{$staff->name}}</h3>
 								<p class="profileTitle">{{$staff->position}}</p>
 								<div style="margin: 10px 0;">
-									<a href="{{$staff->facebook}}"><i class="fab fa-facebook-f"></i></a> 
-									<a href="#"><i class="fab fa-instagram"></i></a>  
-									<a href="#"><i class="fab fa-twitter"></i></a>  
-									<a href="#"><i class="fab fa-linkedin"></i></a>  
+
+									@if (isset($staff->facebook))
+										<a href="#"><i class="fab fa-facebook"></i></a>
+									@endif
+									@if (isset($staff->instagram))
+										<a href="#"><i class="fab fa-instagram"></i></a>
+									@endif
+									@if (isset($staff->twitter))
+										<a href="#"><i class="fab fa-twitter"></i></a>
+									@endif
+									@if (isset($staff->linkedin))
+										<a href="#"><i class="fab fa-linkedin"></i></a>
+									@endif
+
 								</div>
 							</div>
 						</div>
