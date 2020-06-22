@@ -41658,8 +41658,8 @@ $('.carousel .carousel-item').each(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/tat-tvam-asi/php-internship/scilens-lab/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/tat-tvam-asi/php-internship/scilens-lab/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /var/www/html/scilens-lab/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /var/www/html/scilens-lab/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

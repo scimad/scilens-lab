@@ -6,7 +6,7 @@ Circles.create({
 	maxValue:     100,
 	width:        8,
 	text:         function(value){return value + '%';},
-	colors:       ['#eee', '#1D62F0'],
+	colors:       ['#eee', '#3F7BF3'],
 	duration:     400,
 	wrpClass:     'circles-wrp',
 	textClass:    'circles-text',
@@ -106,7 +106,7 @@ $(".mapcontainer").mapael({
 				, stroke: "#fafafa"
 			}
 			, attrsHover: {
-				fill: "#59d05d"
+				fill: "#2a7f62"
 			}
 			, text: {
 				attrs: {
@@ -126,37 +126,37 @@ $(".mapcontainer").mapael({
 				"ID": {
 					tooltip: {content: "<b>Indonesia</b> <br /> Tempat Lahir Beta"},
 					attrs: {
-						fill: "#59d05d"
+						fill: "#2a7f62"
 					}
 					, attrsHover: {
-						fill: "#59d05d"
+						fill: "#2a7f62"
 					}
 				},
 				"RU": {
 					tooltip: {content: "<b>Russia</b>"},
 					attrs: {
-						fill: "#59d05d"
+						fill: "#2a7f62"
 					}
 					, attrsHover: {
-						fill: "#59d05d"
+						fill: "#2a7f62"
 					}					
 				},
 				"US": {
 					tooltip: {content: "<b>United State</b>"},
 					attrs: {
-						fill: "#59d05d"
+						fill: "#2a7f62"
 					}
 					, attrsHover: {
-						fill: "#59d05d"
+						fill: "#2a7f62"
 					}					
 				},
 				"AU": {
 					tooltip: {content: "<b>Australia</b>"},
 					attrs: {
-						fill: "#59d05d"
+						fill: "#2a7f62"
 					}
 					, attrsHover: {
-						fill: "#59d05d"
+						fill: "#2a7f62"
 					}					
 				}
 			},
