@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Scilens--startsHere</title>
+    <title>{{ config('app.name', 'Fractal Labs') }}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -29,7 +29,7 @@
 <body>
     <div id="fh5co-hero-wrapper">
         <nav class="container navbar navbar-expand-lg main-navbar-nav navbar-light">
-            <a class="navbar-brand" href="/">SCILEN() :: 4x4</a>
+            <a class="navbar-brand" href="/">Fractal Labs</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -68,7 +68,7 @@
 
             <div class="footer-three-grid wow fadeIn animated" data-wow-delay="0.66s">
                 <div class="column-1-3 ">
-                    <a style= "text-decoration: none;" href="/"><h1>SCILEN()::4x4</h1></a>
+                    <a style= "text-decoration: none;" href="/"><h1>{{ config('app.name', 'Fractal Labs') }}</h1></a>
                 </div>
                 <div class="column-2-3">
                     <nav class="footer-nav">
@@ -91,7 +91,7 @@
 
             <span class="border-bottom-footer"></span>
 
-            <p class="copyright">&copy; 2020 Scilens 4x4 Lab | All rights reserved.</p>
+            <p class="copyright">&copy; 2020 {{ config('app.name', 'Fractal Labs') }} | All rights reserved.</p>
 
         </div>
     </footer>

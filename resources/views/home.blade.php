@@ -191,7 +191,7 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <h1>And miles to go before we sleep...</h1>
-                            <p>Relation with Scilens is not a temporary one time relation. We build a long term relationship so that we can help you in every steps and give you the solutions you need.</p>
+                            <p>Relation with {{ config('app.name', 'Fractal Labs') }} is not a temporary one time relation. We build a long term relationship so that we can help you in every steps and give you the solutions you need.</p>
                         </div>
                         <div class="col-sm-6">
                             <div style="text-align: center;">

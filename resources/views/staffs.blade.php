@@ -3,7 +3,7 @@
 @section('subheader')
 	 <div class="container fh5co-hero-inner">
         <h1 class="animated fadeIn wow" data-wow-delay="0.4s">Meet our team</h1>
-        <p class="animated fadeIn wow" data-wow-delay="0.67s">4x4 is a collective emergence of skillful engineers and experienced developers. We don't leave any of the encountered problems unsolved. Solution is always the primary essence of Scilens.</p>
+        <p class="animated fadeIn wow" data-wow-delay="0.67s">4x4 is a collective emergence of skillful engineers and experienced developers. We don't leave any of the encountered problems unsolved. Solution is always the primary essence of {{ config('app.name', 'Fractal Labs') }}.</p>
         <button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s" onclick="$('#fh5co-download').goTo();return false;">Contact Us</button>
         <img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s" src="img/team.png" alt="Team" style="height:400px; width:400px;">
     </div>
@@ -13,7 +13,7 @@
 @section('content')
 	<div class="wrapper">
 		<div class="row" style="margin-top:150px;margin-right:100px;margin-left:100px;">
-		
+
 			@if(count($staffs)>0)
 				@foreach($staffs as $staff)
 					<div class="col-lg-4">
@@ -43,7 +43,7 @@
 					</div>
 				@endforeach
 			@endif
-		
+
 		</div>
 	</div>
 
@@ -58,13 +58,13 @@
 					<div class="communication">
 						<h5><p>We always welcome your communication and feedback. Feel free to contact us through email or call.</p></h5>
 						<h5><img src="./images/call.png">+977-9818-500-612</h5><br><br>
-						<h5><img src="./images/email.png">scilens4x4@gmail.com</h5><br><br>
-						<h5><img src="./images/facebook.png">facebook.com/scilens4x4</h5><br><br>
-						<h5><img src="./images/twitter.png">twitter.com/scilens4x4</h5><br><br>
-						<h5><img src="./images/instagram.png">instagram.com/scilens4x4</h5><br>
+						<h5><img src="./images/email.png">mail@fractallabsnepal.com</h5><br><br>
+						<h5><img src="./images/facebook.png">facebook.com/fractallabsnepal</h5><br><br>
+						<h5><img src="./images/twitter.png">twitter.com/fractallabsnepal</h5><br><br>
+						<h5><img src="./images/instagram.png">instagram.com/fractallabsnepal</h5><br>
 					</div>
 				</div>
-		
+
 				<div class="col-md-6">
 					<img src="./images/02.png" class="secwrapper">
 					<div class="communication">
