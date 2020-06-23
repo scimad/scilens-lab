@@ -18,6 +18,9 @@ class AdminController extends Controller
             case 'recruit':
                 return view('admin.artisanrecruit');
                 break;
+            case 'recruit2':
+                return view('admin.artisanrecruit2');
+                break;
             case 'components':
                 return view('admin.components');
                 break;

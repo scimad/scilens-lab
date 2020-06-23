@@ -18,8 +18,13 @@ Route::get('/', function () {
 });
 
 Route::get('/contact', 'StaffsController@index');
+Route::get('/contact2', 'UsersController@index');
+
 Route::delete('/staff/{id}','StaffsController@destroy');
+Route::delete('/staff2/{id}','UsersController@destroy');
+
 Route::post('/staff','StaffsController@store');
+Route::post('/staff2','UsersController@store');
 
 Route::get('/post', function () {
     return view('post');
