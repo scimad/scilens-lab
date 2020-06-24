@@ -4,6 +4,8 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
+use App\Providers\AppServiceProvider;
+
 class CreateUsersTable extends Migration
 {
     /**
@@ -29,7 +31,7 @@ class CreateUsersTable extends Migration
             $table->string('twitter')->nullable();
             $table->string('linkedin')->nullable();
             $table->string('address')->nullable();
-            $table->string('user_type')->default("staff");
+            $table->string('user_type')->default(AppServiceProvider::STAFF);
         });
     }
 
