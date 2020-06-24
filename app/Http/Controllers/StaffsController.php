@@ -2,13 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use Illuminate\Http\Request;
 use App\Staff;
 
 class StaffsController extends Controller
 {
     public function index(){
-    	$staffs = Staff::all();
+    	$staffs = User::all();
     	return view('staffs')->with('staffs', $staffs);
     }
 
@@ -17,7 +18,7 @@ class StaffsController extends Controller
     // }
 
     public function store(){
-        $staff = new Staff();
+        $staff = new User();
         $staff->name = request('fname');
         $staff->position = request('position');
         $staff->facebook = request('fblink');
@@ -30,7 +31,7 @@ class StaffsController extends Controller
     }
 
     public function destroy($id){
-        $staff = Staff::find($id);
+        $staff = User::find($id);
         $staff->delete();
 
         return redirect('/admin?tab=fire');

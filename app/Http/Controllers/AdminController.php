@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use Illuminate\Http\Request;
-use App\Staff;
+//use App\Staff;
 
 class AdminController extends Controller
 {
@@ -34,11 +35,11 @@ class AdminController extends Controller
                 return view('admin.typography');
                 break;
             case 'view':
-                $staffs = Staff::all();
+                $staffs = User::all();
                 return view('admin.artisanview')->with('staffs', $staffs);
                 break;
             case 'fire':
-                $staffs = Staff::all();
+                $staffs = User::all()->where('user_type','==','staff');
                 return view('admin.artisanfire')->with('staffs', $staffs);
                 break;
             default:

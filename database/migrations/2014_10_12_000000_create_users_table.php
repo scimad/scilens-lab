@@ -23,12 +23,12 @@ class CreateUsersTable extends Migration
             $table->timestamps();
 
             $table->string('image')->default('default.png');
-            $table->string('position');
+            $table->string('position')->default('Developer');
             $table->string('facebook')->nullable();
             $table->string('instagram')->nullable();
             $table->string('twitter')->nullable();
             $table->string('linkedin')->nullable();
-            $table->string('address');
+            $table->string('address')->nullable();
             $table->string('user_type')->default("staff");
         });
     }
